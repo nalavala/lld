@@ -12,4 +12,10 @@ public abstract class BoardEntity {
         this.to = to;
     }
 
+
+    public String toString() {
+
+        return type + " : " + from + " " + to;
+    }
+
 }
